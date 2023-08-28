@@ -28,8 +28,8 @@ function calculateSalary() {
     const newSalarySpan = document.getElementById('newSalary');
 
     percentageSpan.textContent = `Percentual aumento (%): ${percentage}%`;
-    increaseSpan.textContent = `Aumento: R$ ${formatNumber(increase)}`;
-    newSalarySpan.textContent = `Novo Salário: R$ ${formatNumber(new_salary)}`;
+    increaseSpan.textContent = `Aumento: R$${formatNumber(increase)}`;
+    newSalarySpan.textContent = `Novo Salário: R$${formatNumber(new_salary)}`;
 }
 
 const calculateButton = document.getElementById('calculate');
